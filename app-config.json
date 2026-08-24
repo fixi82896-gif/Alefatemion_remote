@@ -1,1 +1,29 @@
-
+{
+  "schema_version": 1,
+  "revision": 1,
+  "source": {
+    "root_hash": null
+  },
+  "permissions": {
+    "allow_screenshot": false,
+    "allow_share": false,
+    "allow_download": false
+  },
+  "nava": {
+    "enabled": false,
+    "stop_in_background": true,
+    "repeat_last_track": true,
+    "tracks": [],
+    "assignments": []
+  },
+  "ota": {
+    "version_code": 0,
+    "min_supported_version_code": 0,
+    "version_name": "",
+    "apk_url": "",
+    "sha256": "",
+    "mandatory": false,
+    "published_at": "",
+    "message": ""
+  }
+}
