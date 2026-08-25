@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 2,
+  "revision": 3,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -13,8 +13,25 @@
     "enabled": false,
     "stop_in_background": true,
     "repeat_last_track": true,
-    "tracks": [],
-    "assignments": []
+    "tracks": [
+      {
+        "id": "nava-1787695874517",
+        "title": "خاطره بازی",
+        "performer": "امین قدیم",
+        "page_url": "",
+        "stream_url": "https:\/\/navaapp.com\/nava\/67de22de2398427ee30510e3",
+        "enabled": true
+      }
+    ],
+    "assignments": [
+      {
+        "target_key": "home",
+        "display_name": "صفحه اصلی",
+        "track_ids": [
+          "nava-1787695874517"
+        ]
+      }
+    ]
   },
   "ota": {
     "version_code": 0,
