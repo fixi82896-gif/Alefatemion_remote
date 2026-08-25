@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 1,
+  "revision": 2,
   "source": {
-    "root_hash": null
+    "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
   "permissions": {
     "allow_screenshot": false,
