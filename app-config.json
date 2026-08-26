@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 6,
+  "revision": 7,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -32,6 +32,48 @@
         ]
       }
     ]
+  },
+  "intro": {
+    "enabled": true,
+    "content_revision": 2,
+    "display_mode": "daily",
+    "title": "آل فاطمیون",
+    "subtitle": "بسم الله الرحمن الرحیم",
+    "message": "با سلام،\n\nاین نرم‌افزار حاوی عکسهای اعضای گروه آل فاطمیون بوده و جهت استفاده اعضای داخلی گروه می‌باشد، لطفاً در اختیار افراد غیر قرار نگیرد\n\nبا تشکر",
+    "button_text": "ورود به برنامه",
+    "text_effect": "typewriter",
+    "effect_speed_millis": 45,
+    "text_size_sp": 27,
+    "line_height_sp": 43,
+    "text_align": "start",
+    "text_color": "#FFFFFFFF",
+    "accent_color": "#FFD8C996",
+    "button_color": "#FF1D7047",
+    "background": {
+      "mode": "gradient",
+      "gradient_colors": [
+        "#FF020A06",
+        "#FF07170F",
+        "#FF0D2D1D",
+        "#FF05130C"
+      ],
+      "image_url": "",
+      "image_sha256": "",
+      "image_mime_type": "",
+      "image_size_bytes": 0,
+      "image_overlay_percent": 45,
+      "watermark_opacity_percent": 14
+    },
+    "audio": {
+      "enabled": true,
+      "asset_url": "",
+      "sha256": "",
+      "mime_type": "",
+      "size_bytes": 0,
+      "volume_percent": 100,
+      "allow_skip": false,
+      "button_mode": "after_audio"
+    }
   },
   "ota": {
     "version_code": 0,
