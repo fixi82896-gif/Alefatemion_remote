@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 9,
+  "revision": 10,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -21,6 +21,14 @@
         "page_url": "",
         "stream_url": "https:\/\/navaapp.com\/nava\/64ebf0a67509bc749a048607",
         "enabled": true
+      },
+      {
+        "id": "nava-1787787139804",
+        "title": "خاطره بازی",
+        "performer": "امین قدیم",
+        "page_url": "https:\/\/navaapp.com\/nava\/67de22de2398427ee30510e3",
+        "stream_url": "https:\/\/navaapp.com\/nava\/67de22de2398427ee30510e3",
+        "enabled": true
       }
     ],
     "assignments": [
@@ -35,15 +43,15 @@
   },
   "intro": {
     "enabled": true,
-    "content_revision": 3,
+    "content_revision": 4,
     "display_mode": "every_launch",
     "title": "آل فاطمیون",
     "subtitle": "بسم الله الرحمن الرحیم",
     "message": "با سلام،\n\nاین نرم‌افزار حاوی عکسهای اعضای گروه آل فاطمیون بوده و جهت استفاده اعضای داخلی گروه می‌باشد، لطفاً در اختیار افراد غیر قرار نگیرد\n\nبا تشکر",
-    "button_text": "ورود به برنامه",
+    "button_text": "با ذکر یک صلوات وارد شوید ",
     "text_effect": "typewriter",
-    "effect_speed_millis": 60,
-    "text_size_sp": 27,
+    "effect_speed_millis": 70,
+    "text_size_sp": 30,
     "line_height_sp": 43,
     "text_align": "start",
     "text_color": "#FFFFFFFF",
@@ -62,7 +70,7 @@
       "image_mime_type": "",
       "image_size_bytes": 0,
       "image_overlay_percent": 45,
-      "watermark_opacity_percent": 14
+      "watermark_opacity_percent": 20
     },
     "audio": {
       "enabled": true,
