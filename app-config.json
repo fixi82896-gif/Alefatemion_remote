@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 13,
+  "revision": 14,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -50,8 +50,8 @@
   },
   "intro": {
     "enabled": true,
-    "content_revision": 4,
-    "display_mode": "every_launch",
+    "content_revision": 5,
+    "display_mode": "daily",
     "title": "آل فاطمیون",
     "subtitle": "بسم الله الرحمن الرحیم",
     "message": "با سلام،\n\nاین نرم‌افزار حاوی عکسهای اعضای گروه آل فاطمیون بوده و جهت استفاده اعضای داخلی گروه می‌باشد، لطفاً در اختیار افراد غیر قرار نگیرد\n\nبا تشکر",
@@ -91,13 +91,13 @@
     }
   },
   "ota": {
-    "version_code": 5,
+    "version_code": 0,
     "min_supported_version_code": 0,
-    "version_name": "0.4.1",
-    "apk_url": "https:\/\/github.com\/fixi82896-gif\/Alefatemion_remote\/releases\/download\/android-v5\/Alefatemion-5.apk",
-    "sha256": "6821cf97acdb76f5d1212b1563f4661917ca251e4e756e78d7dba52445a65741",
+    "version_name": "",
+    "apk_url": "",
+    "sha256": "",
     "mandatory": false,
-    "published_at": "2026-08-27T10:17:14.882846Z",
-    "message": "نسخه ۰.۴.۱ آماده نصب است. امکان انتخاب یک نوا برای چند آلبوم و پوشه و اعمال آن روی همه آلبوم‌ها و زیرآلبوم‌ها اضافه شده و پایداری برنامه بهبود یافته است."
+    "published_at": "",
+    "message": ""
   }
 }
