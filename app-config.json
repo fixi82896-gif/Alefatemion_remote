@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 11,
+  "revision": 12,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -91,13 +91,13 @@
     }
   },
   "ota": {
-    "version_code": 0,
+    "version_code": 5,
     "min_supported_version_code": 0,
-    "version_name": "",
-    "apk_url": "",
-    "sha256": "",
+    "version_name": "0.4.1",
+    "apk_url": "https:\/\/github.com\/fixi82896-gif\/Alefatemion_remote\/releases\/download\/android-v5\/Alefatemion-5.apk",
+    "sha256": "6821cf97acdb76f5d1212b1563f4661917ca251e4e756e78d7dba52445a65741",
     "mandatory": false,
-    "published_at": "",
-    "message": ""
+    "published_at": "2026-08-27T10:17:14.882846Z",
+    "message": "نسخه ۰.۴.۱ آماده نصب است. امکان انتخاب یک نوا برای چند آلبوم و پوشه و اعمال آن روی همه آلبوم‌ها و زیرآلبوم‌ها اضافه شده و پایداری برنامه بهبود یافته است."
   }
 }
