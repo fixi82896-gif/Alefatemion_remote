@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 14,
+  "revision": 15,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -29,6 +29,14 @@
         "page_url": "https:\/\/navaapp.com\/nava\/67de22de2398427ee30510e3",
         "stream_url": "https:\/\/navaapp.com\/nava\/67de22de2398427ee30510e3",
         "enabled": true
+      },
+      {
+        "id": "nava-1787829323244",
+        "title": "کرببلا زائری ام",
+        "performer": "مهدی رسولی",
+        "page_url": "https:\/\/navaapp.com\/nava\/68870cbbd8e361f7c307fd1c",
+        "stream_url": "https:\/\/navaapp.com\/nava\/68870cbbd8e361f7c307fd1c",
+        "enabled": true
       }
     ],
     "assignments": [
@@ -40,8 +48,491 @@
         ]
       },
       {
-        "target_key": "albums:all",
-        "display_name": "همه آلبوم‌ها و زیرآلبوم‌ها",
+        "target_key": "folder:A5VVC54yBMKTDAQlxKiZ9w",
+        "display_name": "سال ۱۳۹۳",
+        "track_ids": [
+          "nava-1787769245927"
+        ]
+      },
+      {
+        "target_key": "folder:DjniYWuAr28a2Pzlj_-m3A",
+        "display_name": "سال ۱۳۹۳ \/ محرم",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:Sc6f7wKvZvX6hWvUs438Nw",
+        "display_name": "سال ۱۳۹۳ \/ محرم \/ عکس‌ ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:qFcUznD8LhJgAGv0HWhItw",
+        "display_name": "سال ۱۳۹۳ \/ محرم \/ فیلم ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:RLIJTSAUBawwaSVlQp0zQw",
+        "display_name": "سال ۱۳۹۵",
+        "track_ids": [
+          "nava-1787769245927"
+        ]
+      },
+      {
+        "target_key": "folder:oX1iuiksH20udEV4n_x5YQ",
+        "display_name": "سال ۱۳۹۵ \/ اربعین",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:Em8K-iGcO2MDiW24E2hcmA",
+        "display_name": "سال ۱۳۹۵ \/ اربعین \/ عکس ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:Jk4r6rilBAZ2TuBHRG5UsQ",
+        "display_name": "سال ۱۳۹۵ \/ اربعین \/ فیلم ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:cynqqYWOfF0-fpqH-LbBAg",
+        "display_name": "سال ۱۳۹۶",
+        "track_ids": [
+          "nava-1787769245927"
+        ]
+      },
+      {
+        "target_key": "folder:wWXTIuKfaPZL0GVhCW9ZKg",
+        "display_name": "سال ۱۳۹۶ \/ اربعین",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:1m9q96cVVpNupczxPSgF_Q",
+        "display_name": "سال ۱۳۹۶ \/ اربعین \/ عکس ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:nusv1N0HO7UVCd1gewQw5Q",
+        "display_name": "سال ۱۳۹۶ \/ اربعین \/ فیلم ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:tIngLIGgEcgUdmunPmA19w",
+        "display_name": "سال ۱۳۹۷",
+        "track_ids": [
+          "nava-1787769245927"
+        ]
+      },
+      {
+        "target_key": "folder:7t19FZa-8tOcNNstEzzkFg",
+        "display_name": "سال ۱۳۹۷ \/ اربعین",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:LQv3QovtnmFdIBDGdbYtXQ",
+        "display_name": "سال ۱۳۹۷ \/ اربعین \/ عکس ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:YmbP8TaUqB99JD9slT6hsw",
+        "display_name": "سال ۱۳۹۷ \/ اربعین \/ فیلم ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:UvGr2-RA0vy8IHP_oit4jQ",
+        "display_name": "سال ۱۳۹۸",
+        "track_ids": [
+          "nava-1787769245927"
+        ]
+      },
+      {
+        "target_key": "folder:Of79o6qbGz9YvtOTugZawA",
+        "display_name": "سال ۱۳۹۸ \/ اربعین",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:ic74FkZqVDsZd0FSvekPzA",
+        "display_name": "سال ۱۳۹۸ \/ اربعین \/ عکس ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:u5fJVXW30dqL5T-I6sz3Uw",
+        "display_name": "سال ۱۳۹۸ \/ اربعین \/ فیلم ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:j-PIUqx8Uw9iVPwineWiXA",
+        "display_name": "سال ۱۳۹۸ \/ اردو جهادی",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:CptawGSCSvztYlOCfNRblw",
+        "display_name": "سال ۱۳۹۸ \/ اردو جهادی \/ سیل اندیمشک و معمولان",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:uInRUtPb2D0ZPBzaWKj_1g",
+        "display_name": "سال ۱۳۹۸ \/ اردو جهادی \/ سیل اندیمشک و معمولان \/ عکس ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:FOK2LIfjfQ0KgpgxwwtQdQ",
+        "display_name": "سال ۱۳۹۸ \/ اردو جهادی \/ سیل اندیمشک و معمولان \/ فیلم ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:TJMWim6Lt84aUE6qsH-fEg",
+        "display_name": "سال ۱۳۹۸ \/ مبارزه با کرونا ـ ضدعفونی بیمارستان",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:gFHzPLRIrGkJ6sFBlJSf1w",
+        "display_name": "سال ۱۳۹۸ \/ مبارزه با کرونا ـ ضدعفونی بیمارستان \/ عکس ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:HpUKBGhV8lbcsbvJ7bIq0A",
+        "display_name": "سال ۱۳۹۸ \/ مبارزه با کرونا ـ ضدعفونی بیمارستان \/ فیلم ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:WMO4fnnXdlbRsBko508zIg",
+        "display_name": "سال ۱۳۹۸ \/ محرم",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:jmSlprl-981IB5noYy3hWg",
+        "display_name": "سال ۱۳۹۸ \/ محرم \/ عکس ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:A4CQMRBoyXno2u9HY5WSnw",
+        "display_name": "سال ۱۳۹۸ \/ محرم \/ فیلم ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:e3cjtMK-_Ct2iSvjghwmuA",
+        "display_name": "سال ۱۳۹۹",
+        "track_ids": [
+          "nava-1787769245927"
+        ]
+      },
+      {
+        "target_key": "folder:Acjf3zmoegEUSBBdh87QtA",
+        "display_name": "سال ۱۳۹۹ \/ اربعین ـ عبدالعظیم حسنی",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:iA6gDCPL2wra15ZdpaN5LQ",
+        "display_name": "سال ۱۳۹۹ \/ اربعین ـ عبدالعظیم حسنی \/ عکس ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:jcxsJ9IEZtsu31rk5v_f4g",
+        "display_name": "سال ۱۳۹۹ \/ ماه رمضان _ بسته معیشتی",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:BkOOr1cCBCLX_ZFNXA_xag",
+        "display_name": "سال ۱۳۹۹ \/ ماه رمضان _ بسته معیشتی \/ عکس ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:I4rldNt2YSbsSZO-4QKHgg",
+        "display_name": "سال ۱۳۹۹ \/ ماه رمضان _ طبخ و توزیع غذای گرم",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:4iouWfFA_aih6SEt8rCxrA",
+        "display_name": "سال ۱۳۹۹ \/ ماه رمضان _ طبخ و توزیع غذای گرم \/ عکس ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:QhReZ1dnz_PORvDvsfvhkA",
+        "display_name": "سال ۱۳۹۹ \/ ماه رمضان _ طبخ و توزیع غذای گرم \/ فیلم ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:v_yZHIbYRO2mxbkiVUR3OA",
+        "display_name": "سال ۱۳۹۹ \/ نیمه شعبان",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:ZYRpSAc0HvhMbLQCZS5odA",
+        "display_name": "سال ۱۳۹۹ \/ نیمه شعبان \/ عکس ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:R6PiphhSF7ZlLwp4_n2uIQ",
+        "display_name": "سال ۱۴۰۰",
+        "track_ids": [
+          "nava-1787769245927"
+        ]
+      },
+      {
+        "target_key": "folder:TTL-xYxbzg3jwKov9B8wBA",
+        "display_name": "سال ۱۴۰۰ \/ محرم",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:3nMOKI-Wlu6fHhvOTnq6XA",
+        "display_name": "سال ۱۴۰۰ \/ محرم \/ عکس ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:bSGD9l8Sjva_eYdAH4mgUA",
+        "display_name": "سال ۱۴۰۰ \/ محرم \/ فیلم ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:l7eENm9IacL6TKpigQme1Q",
+        "display_name": "سال ۱۴۰۰ \/ مشهد مقدس ۲۸ صفر",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:fzEfV6_xxmt9UQ1N4vd74Q",
+        "display_name": "سال ۱۴۰۰ \/ مشهد مقدس ۲۸ صفر \/ عکس ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:RXJV-pDxRFwF076L4yZOTQ",
+        "display_name": "سال ۱۴۰۰ \/ مشهد مقدس ۲۸ صفر \/ فیلم ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:jwKn6LcSkAXix-AjelF7pQ",
+        "display_name": "سال ۱۴۰۱",
+        "track_ids": [
+          "nava-1787769245927"
+        ]
+      },
+      {
+        "target_key": "folder:No1AHO9T6Yg2Tzhp52qtCw",
+        "display_name": "سال ۱۴۰۱ \/ اربعین",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:GOoVARaRvdbqtu3KvbqWWQ",
+        "display_name": "سال ۱۴۰۱ \/ اربعین \/ عکس ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:hug5YOfoNYFq5thpcdPBeQ",
+        "display_name": "سال ۱۴۰۱ \/ اربعین \/ فیلم ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:V4R7Qv4NvosCqYUlNYKTkA",
+        "display_name": "سال ۱۴۰۲",
+        "track_ids": [
+          "nava-1787769245927"
+        ]
+      },
+      {
+        "target_key": "folder:bhaBYgLnP7iKFeq88NjgVA",
+        "display_name": "سال ۱۴۰۲ \/ اربعین",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:JCXBZLUZTsJdHUVVD5sUzA",
+        "display_name": "سال ۱۴۰۲ \/ اربعین \/ عکس ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:J1bHJegKwt1yrtqWZ7_L2Q",
+        "display_name": "سال ۱۴۰۲ \/ اربعین \/ فیلم ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:3WDfB3zx02M55ZFKKzVkpw",
+        "display_name": "سال ۱۴۰۳",
+        "track_ids": [
+          "nava-1787769245927"
+        ]
+      },
+      {
+        "target_key": "folder:m-rjjGKEBXBxonrCRXkemg",
+        "display_name": "سال ۱۴۰۳ \/ اربعین",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:KiHfwFx38W6_5TV8bmBJNA",
+        "display_name": "سال ۱۴۰۳ \/ اربعین \/ عکس ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:kK-czTZP00P20d_wivlhLQ",
+        "display_name": "سال ۱۴۰۳ \/ اربعین \/ فیلم ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:DIr-c79X0UqF6Tr1-3H1QA",
+        "display_name": "سال ۱۴۰۴",
+        "track_ids": [
+          "nava-1787769245927"
+        ]
+      },
+      {
+        "target_key": "folder:VspLoxW0BquJ6nT1Yd5uHg",
+        "display_name": "سال ۱۴۰۴ \/ اربعین",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:W3Eda8jS-bs0X43LBb6fAg",
+        "display_name": "سال ۱۴۰۴ \/ اربعین \/ عکس ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:lruiOcq9GCoQeSCcon9uRw",
+        "display_name": "سال ۱۴۰۴ \/ اربعین \/ فیلم ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:1kjXF5B-b6oZ-1R9CSK_Kg",
+        "display_name": "سال ۱۴۰۵",
+        "track_ids": [
+          "nava-1787769245927"
+        ]
+      },
+      {
+        "target_key": "folder:R3d14FRQkXr2JIqaJKrG8w",
+        "display_name": "سال ۱۴۰۵ \/ اربعین",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:hScaqtPDbfEd8vOfNj-oBA",
+        "display_name": "سال ۱۴۰۵ \/ اربعین \/ عکس ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:0vHXXHni6U---sncIqrwOg",
+        "display_name": "سال ۱۴۰۵ \/ اربعین \/ فیلم ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:Stshw_a0RKFi9wpsRddC_A",
+        "display_name": "سال ۱۴۰۵ \/ تشییع رهبر انقلاب",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:9Fe57Jm4NbhaKSQg2P3gKw",
+        "display_name": "سال ۱۴۰۵ \/ تشییع رهبر انقلاب \/ عکس ها",
+        "track_ids": [
+          "nava-1787787139804"
+        ]
+      },
+      {
+        "target_key": "folder:OHcFXheLRHQFPd9xaz2rIw",
+        "display_name": "سال ۱۴۰۵ \/ تشییع رهبر انقلاب \/ فیلم ها",
         "track_ids": [
           "nava-1787787139804"
         ]
