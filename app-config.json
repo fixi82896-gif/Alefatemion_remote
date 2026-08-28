@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 22,
+  "revision": 23,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -91,7 +91,24 @@
       "album_updates_enabled": true,
       "radio_updates_enabled": true
     },
-    "items": []
+    "items": [
+      {
+        "id": "manual-1787925631048",
+        "category": "notice",
+        "origin": "manual",
+        "title": "بسم الله الرحمن الرحیم",
+        "summary": "معرفی نرم‌افزار",
+        "body": "با سلام،\n\nاین نرم‌افزار حاوی عکسهای اعضای گروه آل فاطمیون بوده و جهت استفاده اعضای داخلی گروه می‌باشد، لطفاً در اختیار افراد غیر قرار نگیرد\n\nبا تشکر",
+        "image_url": "",
+        "published": true,
+        "pinned": true,
+        "published_at_millis": 1787925631048,
+        "expires_at_millis": 0,
+        "related_album_hash": "",
+        "related_album_name": "",
+        "related_track_id": ""
+      }
+    ]
   },
   "intro": {
     "enabled": true,
