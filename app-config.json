@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 16,
+  "revision": 17,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -12,7 +12,7 @@
   "nava": {
     "enabled": true,
     "stop_in_background": true,
-    "repeat_last_track": true,
+    "repeat_last_track": false,
     "tracks": [
       {
         "id": "nava-1787769245927",
@@ -36,6 +36,22 @@
         "performer": "مهدی رسولی",
         "page_url": "https:\/\/navaapp.com\/nava\/68870cbbd8e361f7c307fd1c",
         "stream_url": "https:\/\/navaapp.com\/nava\/68870cbbd8e361f7c307fd1c",
+        "enabled": true
+      },
+      {
+        "id": "nava-1787875880287",
+        "title": "یاحسین بوماه",
+        "performer": "حسین ستوده",
+        "page_url": "https:\/\/navaapp.com\/nava\/6896ed81ca30ff90310704d7",
+        "stream_url": "https:\/\/navaapp.com\/nava\/6896ed81ca30ff90310704d7",
+        "enabled": true
+      },
+      {
+        "id": "nava-1787876156548",
+        "title": "تموم زندگیم",
+        "performer": "سید رضا نریمانی",
+        "page_url": "https:\/\/navaapp.com\/nava\/67f0be09828ac154b106e852",
+        "stream_url": "https:\/\/navaapp.com\/nava\/67f0be09828ac154b106e852",
         "enabled": true
       }
     ],
