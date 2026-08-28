@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 17,
+  "revision": 18,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -52,6 +52,14 @@
         "performer": "سید رضا نریمانی",
         "page_url": "https:\/\/navaapp.com\/nava\/67f0be09828ac154b106e852",
         "stream_url": "https:\/\/navaapp.com\/nava\/67f0be09828ac154b106e852",
+        "enabled": true
+      },
+      {
+        "id": "nava-1787876517287",
+        "title": "سحرهای کربلا",
+        "performer": "سید رضا نریمانی",
+        "page_url": "https:\/\/navaapp.com\/nava\/6494aee807baeca78e068718",
+        "stream_url": "https:\/\/navaapp.com\/nava\/6494aee807baeca78e068718",
         "enabled": true
       }
     ],
