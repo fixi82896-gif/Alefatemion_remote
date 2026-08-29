@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 42,
+  "revision": 43,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -276,7 +276,7 @@
     ]
   },
   "home": {
-    "enabled": true,
+    "enabled": false,
     "banners": [],
     "sections": [
       {
