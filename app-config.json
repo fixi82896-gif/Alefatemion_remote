@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 31,
+  "revision": 32,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -19,87 +19,87 @@
         "title": "نوای حسین",
         "performer": "محمدالجنامی",
         "page_url": "",
-        "stream_url": "https://navaapp.com/nava/64ebf0a67509bc749a048607",
+        "stream_url": "https:\/\/navaapp.com\/nava\/64ebf0a67509bc749a048607",
         "enabled": false
       },
       {
         "id": "nava-1787787139804",
         "title": "خاطره بازی",
         "performer": "امین قدیم",
-        "page_url": "https://navaapp.com/nava/67de22de2398427ee30510e3",
-        "stream_url": "https://navaapp.com/nava/67de22de2398427ee30510e3",
+        "page_url": "https:\/\/navaapp.com\/nava\/67de22de2398427ee30510e3",
+        "stream_url": "https:\/\/navaapp.com\/nava\/67de22de2398427ee30510e3",
         "enabled": false
       },
       {
         "id": "nava-1787829323244",
         "title": "کرببلا زائری ام",
         "performer": "مهدی رسولی",
-        "page_url": "https://navaapp.com/nava/68870cbbd8e361f7c307fd1c",
-        "stream_url": "https://navaapp.com/nava/68870cbbd8e361f7c307fd1c",
+        "page_url": "https:\/\/navaapp.com\/nava\/68870cbbd8e361f7c307fd1c",
+        "stream_url": "https:\/\/navaapp.com\/nava\/68870cbbd8e361f7c307fd1c",
         "enabled": false
       },
       {
         "id": "nava-1787875880287",
         "title": "یاحسین بوماه",
         "performer": "حسین ستوده",
-        "page_url": "https://navaapp.com/nava/6896ed81ca30ff90310704d7",
-        "stream_url": "https://navaapp.com/nava/6896ed81ca30ff90310704d7",
+        "page_url": "https:\/\/navaapp.com\/nava\/6896ed81ca30ff90310704d7",
+        "stream_url": "https:\/\/navaapp.com\/nava\/6896ed81ca30ff90310704d7",
         "enabled": false
       },
       {
         "id": "nava-1787876156548",
         "title": "تموم زندگیم",
         "performer": "سید رضا نریمانی",
-        "page_url": "https://navaapp.com/nava/67f0be09828ac154b106e852",
-        "stream_url": "https://navaapp.com/nava/67f0be09828ac154b106e852",
+        "page_url": "https:\/\/navaapp.com\/nava\/67f0be09828ac154b106e852",
+        "stream_url": "https:\/\/navaapp.com\/nava\/67f0be09828ac154b106e852",
         "enabled": false
       },
       {
         "id": "nava-1787876517287",
         "title": "سحرهای کربلا",
         "performer": "سید رضا نریمانی",
-        "page_url": "https://navaapp.com/nava/6494aee807baeca78e068718",
-        "stream_url": "https://navaapp.com/nava/6494aee807baeca78e068718",
+        "page_url": "https:\/\/navaapp.com\/nava\/6494aee807baeca78e068718",
+        "stream_url": "https:\/\/navaapp.com\/nava\/6494aee807baeca78e068718",
         "enabled": false
       },
       {
         "id": "nava-1787944473611",
         "title": "دلشوره اربعین",
         "performer": "حسین ستوده",
-        "page_url": "https://kashoob.com/audio/yZAp8/",
-        "stream_url": "https://kashoob.com/audio/yZAp8/",
+        "page_url": "https:\/\/kashoob.com\/audio\/yZAp8\/",
+        "stream_url": "https:\/\/kashoob.com\/audio\/yZAp8\/",
         "enabled": false
       },
       {
         "id": "nava-1787993116947",
         "title": "طوفان الاربعین",
         "performer": "ابوذر روحی",
-        "page_url": "https://navaapp.com/nava/66b71bec6cef60b94a014d47",
-        "stream_url": "https://navaapp.com/nava/66b71bec6cef60b94a014d47",
+        "page_url": "https:\/\/navaapp.com\/nava\/66b71bec6cef60b94a014d47",
+        "stream_url": "https:\/\/navaapp.com\/nava\/66b71bec6cef60b94a014d47",
         "enabled": false
       },
       {
         "id": "nava-1788001300700",
         "title": "سید محمد رضا نوشه ور",
         "performer": "جاریه رحمت خدا",
-        "page_url": "https://navaapp.com/nava/68c6ac623288a0afc20b58d1",
-        "stream_url": "https://navaapp.com/nava/68c6ac623288a0afc20b58d1",
+        "page_url": "https:\/\/navaapp.com\/nava\/68c6ac623288a0afc20b58d1",
+        "stream_url": "https:\/\/navaapp.com\/nava\/68c6ac623288a0afc20b58d1",
         "enabled": true
       },
       {
         "id": "nava-1788001451571",
         "title": "ما مجنون لیلامون محمده",
         "performer": "ابوذر روحی",
-        "page_url": "https://navaapp.com/nava/68c7b778025b735fd10ea732",
-        "stream_url": "https://navaapp.com/nava/68c7b778025b735fd10ea732",
+        "page_url": "https:\/\/navaapp.com\/nava\/68c7b778025b735fd10ea732",
+        "stream_url": "https:\/\/navaapp.com\/nava\/68c7b778025b735fd10ea732",
         "enabled": true
       },
       {
         "id": "nava-1788001600135",
         "title": "حبیبی",
         "performer": "سجاد محمدی",
-        "page_url": "https://navaapp.com/nava/6a92815f0797d3085104d9dd",
-        "stream_url": "https://navaapp.com/nava/6a92815f0797d3085104d9dd",
+        "page_url": "https:\/\/navaapp.com\/nava\/6a92815f0797d3085104d9dd",
+        "stream_url": "https:\/\/navaapp.com\/nava\/6a92815f0797d3085104d9dd",
         "enabled": true
       }
     ],
@@ -216,7 +216,24 @@
   },
   "home": {
     "enabled": true,
-    "banners": [],
+    "banners": [
+      {
+        "id": "home-mtea7q6g",
+        "title": "میلاد پیامبر اکرم و امام صادق علیه‌السلام",
+        "description": "میلاد دو نور مبارک",
+        "image_url": "https:\/\/tarh.ir\/designs\/3245716\/%D8%B7%D8%B1%D8%AD-%D8%A2%D9%85%D8%A7%D8%AF%D9%87-%D8%A8%DB%8C%D9%84%D8%A8%D9%88%D8%B1%D8%AF-%D9%88%D9%84%D8%A7%D8%AF%D8%AA-%D9%BE%DB%8C%D8%A7%D9%85%D8%A8%D8%B1-%D9%88-%D8%A7%D9%85%D8%A7%D9%85-%D8%B5%D8%A7%D8%AF%D9%82-%D8%A8%D8%A7-%D8%AA%D8%A7%DB%8C%D9%BE%D9%88%DA%AF%D8%B1%D8%A7%D9%81%DB%8C-%D9%85%D8%AD%D9%85%D8%AF-%D9%85%D8%B5%D8%B7%D9%81%DB%8C",
+        "placement": "inline",
+        "destination_type": "none",
+        "destination_id": "",
+        "destination_parent_id": "",
+        "external_url": "",
+        "enabled": true,
+        "sponsored": false,
+        "display_order": 0,
+        "starts_at_millis": 0,
+        "expires_at_millis": 0
+      }
+    ],
     "sections": [
       {
         "id": "quick_access",
