@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 25,
+  "revision": 26,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -120,24 +120,7 @@
   },
   "home": {
     "enabled": true,
-    "banners": [
-      {
-        "id": "home-mte06j6y",
-        "title": "تست",
-        "description": "تست",
-        "image_url": "",
-        "placement": "hero",
-        "destination_type": "none",
-        "destination_id": "",
-        "destination_parent_id": "",
-        "external_url": "",
-        "enabled": true,
-        "sponsored": false,
-        "display_order": 0,
-        "starts_at_millis": 0,
-        "expires_at_millis": 0
-      }
-    ],
+    "banners": [],
     "sections": [
       {
         "id": "quick_access",
