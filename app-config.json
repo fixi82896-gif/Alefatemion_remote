@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 33,
+  "revision": 34,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -19,87 +19,87 @@
         "title": "نوای حسین",
         "performer": "محمدالجنامی",
         "page_url": "",
-        "stream_url": "https://navaapp.com/nava/64ebf0a67509bc749a048607",
+        "stream_url": "https:\/\/navaapp.com\/nava\/64ebf0a67509bc749a048607",
         "enabled": false
       },
       {
         "id": "nava-1787787139804",
         "title": "خاطره بازی",
         "performer": "امین قدیم",
-        "page_url": "https://navaapp.com/nava/67de22de2398427ee30510e3",
-        "stream_url": "https://navaapp.com/nava/67de22de2398427ee30510e3",
+        "page_url": "https:\/\/navaapp.com\/nava\/67de22de2398427ee30510e3",
+        "stream_url": "https:\/\/navaapp.com\/nava\/67de22de2398427ee30510e3",
         "enabled": false
       },
       {
         "id": "nava-1787829323244",
         "title": "کرببلا زائری ام",
         "performer": "مهدی رسولی",
-        "page_url": "https://navaapp.com/nava/68870cbbd8e361f7c307fd1c",
-        "stream_url": "https://navaapp.com/nava/68870cbbd8e361f7c307fd1c",
+        "page_url": "https:\/\/navaapp.com\/nava\/68870cbbd8e361f7c307fd1c",
+        "stream_url": "https:\/\/navaapp.com\/nava\/68870cbbd8e361f7c307fd1c",
         "enabled": false
       },
       {
         "id": "nava-1787875880287",
         "title": "یاحسین بوماه",
         "performer": "حسین ستوده",
-        "page_url": "https://navaapp.com/nava/6896ed81ca30ff90310704d7",
-        "stream_url": "https://navaapp.com/nava/6896ed81ca30ff90310704d7",
+        "page_url": "https:\/\/navaapp.com\/nava\/6896ed81ca30ff90310704d7",
+        "stream_url": "https:\/\/navaapp.com\/nava\/6896ed81ca30ff90310704d7",
         "enabled": false
       },
       {
         "id": "nava-1787876156548",
         "title": "تموم زندگیم",
         "performer": "سید رضا نریمانی",
-        "page_url": "https://navaapp.com/nava/67f0be09828ac154b106e852",
-        "stream_url": "https://navaapp.com/nava/67f0be09828ac154b106e852",
+        "page_url": "https:\/\/navaapp.com\/nava\/67f0be09828ac154b106e852",
+        "stream_url": "https:\/\/navaapp.com\/nava\/67f0be09828ac154b106e852",
         "enabled": false
       },
       {
         "id": "nava-1787876517287",
         "title": "سحرهای کربلا",
         "performer": "سید رضا نریمانی",
-        "page_url": "https://navaapp.com/nava/6494aee807baeca78e068718",
-        "stream_url": "https://navaapp.com/nava/6494aee807baeca78e068718",
+        "page_url": "https:\/\/navaapp.com\/nava\/6494aee807baeca78e068718",
+        "stream_url": "https:\/\/navaapp.com\/nava\/6494aee807baeca78e068718",
         "enabled": false
       },
       {
         "id": "nava-1787944473611",
         "title": "دلشوره اربعین",
         "performer": "حسین ستوده",
-        "page_url": "https://kashoob.com/audio/yZAp8/",
-        "stream_url": "https://kashoob.com/audio/yZAp8/",
+        "page_url": "https:\/\/kashoob.com\/audio\/yZAp8\/",
+        "stream_url": "https:\/\/kashoob.com\/audio\/yZAp8\/",
         "enabled": false
       },
       {
         "id": "nava-1787993116947",
         "title": "طوفان الاربعین",
         "performer": "ابوذر روحی",
-        "page_url": "https://navaapp.com/nava/66b71bec6cef60b94a014d47",
-        "stream_url": "https://navaapp.com/nava/66b71bec6cef60b94a014d47",
+        "page_url": "https:\/\/navaapp.com\/nava\/66b71bec6cef60b94a014d47",
+        "stream_url": "https:\/\/navaapp.com\/nava\/66b71bec6cef60b94a014d47",
         "enabled": false
       },
       {
         "id": "nava-1788001300700",
         "title": "سید محمد رضا نوشه ور",
         "performer": "جاریه رحمت خدا",
-        "page_url": "https://navaapp.com/nava/68c6ac623288a0afc20b58d1",
-        "stream_url": "https://navaapp.com/nava/68c6ac623288a0afc20b58d1",
+        "page_url": "https:\/\/navaapp.com\/nava\/68c6ac623288a0afc20b58d1",
+        "stream_url": "https:\/\/navaapp.com\/nava\/68c6ac623288a0afc20b58d1",
         "enabled": true
       },
       {
         "id": "nava-1788001451571",
         "title": "ما مجنون لیلامون محمده",
         "performer": "ابوذر روحی",
-        "page_url": "https://navaapp.com/nava/68c7b778025b735fd10ea732",
-        "stream_url": "https://navaapp.com/nava/68c7b778025b735fd10ea732",
+        "page_url": "https:\/\/navaapp.com\/nava\/68c7b778025b735fd10ea732",
+        "stream_url": "https:\/\/navaapp.com\/nava\/68c7b778025b735fd10ea732",
         "enabled": true
       },
       {
         "id": "nava-1788001600135",
         "title": "حبیبی",
         "performer": "سجاد محمدی",
-        "page_url": "https://navaapp.com/nava/6a92815f0797d3085104d9dd",
-        "stream_url": "https://navaapp.com/nava/6a92815f0797d3085104d9dd",
+        "page_url": "https:\/\/navaapp.com\/nava\/6a92815f0797d3085104d9dd",
+        "stream_url": "https:\/\/navaapp.com\/nava\/6a92815f0797d3085104d9dd",
         "enabled": true
       }
     ],
@@ -252,17 +252,17 @@
   },
   "intro": {
     "enabled": true,
-    "content_revision": 6,
-    "display_mode": "daily",
+    "content_revision": 7,
+    "display_mode": "every_launch",
     "title": "آل فاطمیون",
     "subtitle": "بسم الله الرحمن الرحیم",
-    "message": "با سلام،\n\nاین نرم‌افزار حاوی عکسهای اعضای گروه آل فاطمیون بوده و جهت استفاده اعضای داخلی گروه می‌باشد، لطفاً در اختیار افراد غیر قرار نگیرد\n\nبا تشکر",
+    "message": "با سلام، \nضمن عرض تبریک به مناسبت میلاد با سعادت پیامبر اکرم صلی‌الله و امام صادق علیه‌السلام، ضمن تشکر از حضور شما در موکب مجازی آل فاطمیون به استحضار میرساند این نرم‌افزار حاوی عکسهای اعضای گروه آل فاطمیون بوده و جهت استفاده داخلی گروه می‌باشد، لطفاً در اختیار افراد غیر قرار نگیرد\n\nبا تشکر",
     "button_text": "با ذکر یک صلوات وارد شوید",
     "text_effect": "typewriter",
-    "effect_speed_millis": 70,
-    "text_size_sp": 30,
-    "line_height_sp": 43,
-    "text_align": "start",
+    "effect_speed_millis": 45,
+    "text_size_sp": 20,
+    "line_height_sp": 45,
+    "text_align": "center",
     "text_color": "#FFFFFFFF",
     "accent_color": "#FFD8C996",
     "button_color": "#FF1D7047",
