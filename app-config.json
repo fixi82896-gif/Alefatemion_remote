@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 26,
+  "revision": 27,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -19,55 +19,63 @@
         "title": "نوای حسین",
         "performer": "محمدالجنامی",
         "page_url": "",
-        "stream_url": "https://navaapp.com/nava/64ebf0a67509bc749a048607",
+        "stream_url": "https:\/\/navaapp.com\/nava\/64ebf0a67509bc749a048607",
         "enabled": true
       },
       {
         "id": "nava-1787787139804",
         "title": "خاطره بازی",
         "performer": "امین قدیم",
-        "page_url": "https://navaapp.com/nava/67de22de2398427ee30510e3",
-        "stream_url": "https://navaapp.com/nava/67de22de2398427ee30510e3",
+        "page_url": "https:\/\/navaapp.com\/nava\/67de22de2398427ee30510e3",
+        "stream_url": "https:\/\/navaapp.com\/nava\/67de22de2398427ee30510e3",
         "enabled": true
       },
       {
         "id": "nava-1787829323244",
         "title": "کرببلا زائری ام",
         "performer": "مهدی رسولی",
-        "page_url": "https://navaapp.com/nava/68870cbbd8e361f7c307fd1c",
-        "stream_url": "https://navaapp.com/nava/68870cbbd8e361f7c307fd1c",
+        "page_url": "https:\/\/navaapp.com\/nava\/68870cbbd8e361f7c307fd1c",
+        "stream_url": "https:\/\/navaapp.com\/nava\/68870cbbd8e361f7c307fd1c",
         "enabled": true
       },
       {
         "id": "nava-1787875880287",
         "title": "یاحسین بوماه",
         "performer": "حسین ستوده",
-        "page_url": "https://navaapp.com/nava/6896ed81ca30ff90310704d7",
-        "stream_url": "https://navaapp.com/nava/6896ed81ca30ff90310704d7",
+        "page_url": "https:\/\/navaapp.com\/nava\/6896ed81ca30ff90310704d7",
+        "stream_url": "https:\/\/navaapp.com\/nava\/6896ed81ca30ff90310704d7",
         "enabled": true
       },
       {
         "id": "nava-1787876156548",
         "title": "تموم زندگیم",
         "performer": "سید رضا نریمانی",
-        "page_url": "https://navaapp.com/nava/67f0be09828ac154b106e852",
-        "stream_url": "https://navaapp.com/nava/67f0be09828ac154b106e852",
+        "page_url": "https:\/\/navaapp.com\/nava\/67f0be09828ac154b106e852",
+        "stream_url": "https:\/\/navaapp.com\/nava\/67f0be09828ac154b106e852",
         "enabled": true
       },
       {
         "id": "nava-1787876517287",
         "title": "سحرهای کربلا",
         "performer": "سید رضا نریمانی",
-        "page_url": "https://navaapp.com/nava/6494aee807baeca78e068718",
-        "stream_url": "https://navaapp.com/nava/6494aee807baeca78e068718",
+        "page_url": "https:\/\/navaapp.com\/nava\/6494aee807baeca78e068718",
+        "stream_url": "https:\/\/navaapp.com\/nava\/6494aee807baeca78e068718",
         "enabled": true
       },
       {
         "id": "nava-1787944473611",
         "title": "دلشوره اربعین",
         "performer": "حسین ستوده",
-        "page_url": "https://kashoob.com/audio/yZAp8/",
-        "stream_url": "https://kashoob.com/audio/yZAp8/",
+        "page_url": "https:\/\/kashoob.com\/audio\/yZAp8\/",
+        "stream_url": "https:\/\/kashoob.com\/audio\/yZAp8\/",
+        "enabled": true
+      },
+      {
+        "id": "nava-1787993116947",
+        "title": "طوفان الاربعین",
+        "performer": "ابوذر روحی",
+        "page_url": "https:\/\/navaapp.com\/nava\/66b71bec6cef60b94a014d47",
+        "stream_url": "https:\/\/navaapp.com\/nava\/66b71bec6cef60b94a014d47",
         "enabled": true
       }
     ],
@@ -100,6 +108,22 @@
       "radio_updates_enabled": true
     },
     "items": [
+      {
+        "id": "auto-radio-nava-1787993116947-mte4xqms",
+        "category": "radio_update",
+        "origin": "auto_radio",
+        "title": "نوای تازه در رادیو آل فاطمیون",
+        "summary": "نوای «طوفان الاربعین» با صدای ابوذر روحی به رادیو آل فاطمیون افزوده شد.",
+        "body": "نوای «طوفان الاربعین» با صدای ابوذر روحی به رادیو آل فاطمیون افزوده شد.",
+        "image_url": "",
+        "published": true,
+        "pinned": false,
+        "published_at_millis": 1787993116948,
+        "expires_at_millis": 0,
+        "related_album_hash": "",
+        "related_album_name": "",
+        "related_track_id": "nava-1787993116947"
+      },
       {
         "id": "manual-1787925631048",
         "category": "notice",
