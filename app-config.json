@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 57,
+  "revision": 58,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -146,6 +146,70 @@
         "expires_at_millis": 0,
         "related_album_hash": "",
         "related_album_name": "",
+        "related_track_id": ""
+      },
+      {
+        "id": "auto-album-1788111996885-0-535e725340da",
+        "category": "album_update",
+        "origin": "auto_album",
+        "title": "محتوای تازه در آلبوم عکس ها",
+        "summary": "2 تصویر به این آلبوم اضافه شد.",
+        "body": "2 تصویر به این آلبوم اضافه شد. برای مشاهده مستقیم، دکمه آلبوم را بزنید.",
+        "image_url": "",
+        "published": true,
+        "pinned": false,
+        "published_at_millis": 1788111996885,
+        "expires_at_millis": 0,
+        "related_album_hash": "3nMOKI-Wlu6fHhvOTnq6XA",
+        "related_album_name": "عکس ها",
+        "related_track_id": ""
+      },
+      {
+        "id": "auto-album-1788111996885-1-e45e8ba89a2d",
+        "category": "album_update",
+        "origin": "auto_album",
+        "title": "محتوای تازه در آلبوم فیلم ها",
+        "summary": "6 فیلم به این آلبوم اضافه شد.",
+        "body": "6 فیلم به این آلبوم اضافه شد. برای مشاهده مستقیم، دکمه آلبوم را بزنید.",
+        "image_url": "",
+        "published": true,
+        "pinned": false,
+        "published_at_millis": 1788111996885,
+        "expires_at_millis": 0,
+        "related_album_hash": "RXJV-pDxRFwF076L4yZOTQ",
+        "related_album_name": "فیلم ها",
+        "related_track_id": ""
+      },
+      {
+        "id": "auto-album-1788111996885-2-ae4a851cf0dd",
+        "category": "album_update",
+        "origin": "auto_album",
+        "title": "محتوای تازه در آلبوم فیلم ها",
+        "summary": "1 فیلم به این آلبوم اضافه شد.",
+        "body": "1 فیلم به این آلبوم اضافه شد. برای مشاهده مستقیم، دکمه آلبوم را بزنید.",
+        "image_url": "",
+        "published": true,
+        "pinned": false,
+        "published_at_millis": 1788111996885,
+        "expires_at_millis": 0,
+        "related_album_hash": "bSGD9l8Sjva_eYdAH4mgUA",
+        "related_album_name": "فیلم ها",
+        "related_track_id": ""
+      },
+      {
+        "id": "auto-album-1788111996885-3-4bc89bc2f6b7",
+        "category": "album_update",
+        "origin": "auto_album",
+        "title": "محتوای تازه در آلبوم عکس ها",
+        "summary": "77 تصویر به این آلبوم اضافه شد.",
+        "body": "77 تصویر به این آلبوم اضافه شد. برای مشاهده مستقیم، دکمه آلبوم را بزنید.",
+        "image_url": "",
+        "published": true,
+        "pinned": false,
+        "published_at_millis": 1788111996885,
+        "expires_at_millis": 0,
+        "related_album_hash": "fzEfV6_xxmt9UQ1N4vd74Q",
+        "related_album_name": "عکس ها",
         "related_track_id": ""
       },
       {
