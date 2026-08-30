@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 67,
+  "revision": 68,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -469,24 +469,7 @@
   },
   "home": {
     "enabled": true,
-    "banners": [
-      {
-        "id": "home-mtgdfdme",
-        "title": "",
-        "description": "",
-        "image_url": "https:\/\/github.com\/fixi82896-gif\/Alefatemion_remote\/releases\/download\/remote-assets-v1\/intro-background-e0daceefe1c2ba6b3f0e.png",
-        "placement": "hero",
-        "destination_type": "none",
-        "destination_id": "",
-        "destination_parent_id": "",
-        "external_url": "",
-        "enabled": true,
-        "sponsored": false,
-        "display_order": 0,
-        "starts_at_millis": 0,
-        "expires_at_millis": 0
-      }
-    ],
+    "banners": [],
     "sections": [
       {
         "id": "announcements",
