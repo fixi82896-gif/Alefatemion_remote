@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 79,
+  "revision": 80,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -11,7 +11,7 @@
   },
   "nava": {
     "enabled": true,
-    "mourning_enabled": true,
+    "mourning_enabled": false,
     "celebration_enabled": true,
     "stop_in_background": true,
     "repeat_last_track": true,
