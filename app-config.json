@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 92,
+  "revision": 93,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -750,13 +750,13 @@
     }
   },
   "ota": {
-    "version_code": 15,
+    "version_code": 16,
     "min_supported_version_code": 0,
     "version_name": "0.5.0",
-    "apk_url": "https://github.com/fixi82896-gif/Alefatemion_remote/releases/download/android-v15/Alefatemion-15.apk",
-    "sha256": "0a208b00c1e0cd121414dbd4dc8e2eb6c9465797da6b67d0429f9dbce0f6f0af",
+    "apk_url": "https://github.com/fixi82896-gif/Alefatemion_remote/releases/download/android-v16/Alefatemion-16.apk",
+    "sha256": "c90863702c957468a3331d9348caf57c5192c710c9d35090309c468af18c37cb",
     "mandatory": false,
-    "published_at": "2026-09-09T12:27:54.460038Z",
+    "published_at": "2026-09-09T12:40:34.490375Z",
     "message": "نسخه جدید ۰.۵.۰ آل فاطمیون منتشر شد. لطفاً برای دریافت اصلاحات و امکانات جدید، برنامه را بروزرسانی کنید."
   }
 }
