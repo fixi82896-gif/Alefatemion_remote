@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 101,
+  "revision": 102,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -662,7 +662,7 @@
         "type": "eitaa",
         "label": "ایتا آل فاطمیون",
         "value": "https:\/\/eitaa.com\/alefatemion",
-        "enabled": true,
+        "enabled": false,
         "quick_access": false
       }
     ]
