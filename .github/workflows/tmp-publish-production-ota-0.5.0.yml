@@ -1,0 +1,187 @@
+name: ZZ - Publish Approved Production OTA 0.5.0
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/tmp-publish-production-ota-0.5.0.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-approved-production-ota-0-5-0
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      EXPECTED_SHA256: 0a208b00c1e0cd121414dbd4dc8e2eb6c9465797da6b67d0429f9dbce0f6f0af
+      EXPECTED_SIZE: "5254971"
+      RELEASE_TAG: android-v15
+      RELEASE_ASSET: Alefatemion-15.apk
+      RELEASE_URL: https://github.com/fixi82896-gif/Alefatemion_remote/releases/download/android-v15/Alefatemion-15.apk
+      SOURCE_URL: 'https://sdmntprnortheu.oaiusercontent.com/files/00000000-1b5c-81f4-9867-c0f3596ed69d/raw?se=2026-09-09T12%3A32%3A06Z&sp=r&sv=2026-02-06&sr=b&scid=fda95dae-b9c0-5a7a-b60f-fa29f7f3d5c2&skoid=9b41a688-1b44-4731-856e-b0efcf3660ed&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-09T08%3A29%3A18Z&ske=2026-09-10T08%3A29%3A18Z&sks=b&skv=2026-02-06&sig=o23iuLQmA781dUcd99RvB%2BheTMQQ8G43EvJsoushblI%3D'
+
+    steps:
+      - name: Download the exact approved APK
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail --location --retry 3 --retry-all-errors \
+            --connect-timeout 20 --max-time 180 \
+            "$SOURCE_URL" -o "$RUNNER_TEMP/Alefatemion-15.apk"
+          test -s "$RUNNER_TEMP/Alefatemion-15.apk"
+          actual_size="$(stat -c '%s' "$RUNNER_TEMP/Alefatemion-15.apk")"
+          actual_sha="$(sha256sum "$RUNNER_TEMP/Alefatemion-15.apk" | awk '{print $1}')"
+          test "$actual_size" = "$EXPECTED_SIZE"
+          test "$actual_sha" = "$EXPECTED_SHA256"
+          unzip -t "$RUNNER_TEMP/Alefatemion-15.apk" >/dev/null
+
+      - name: Replace only the android-v15 release asset
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          api="https://api.github.com/repos/${GITHUB_REPOSITORY}"
+          auth=(-H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28")
+
+          release_json="$(curl --fail --silent --show-error "${auth[@]}" "$api/releases/tags/$RELEASE_TAG")"
+          release_id="$(jq -r '.id' <<<"$release_json")"
+          test "$release_id" != "null"
+
+          existing_id="$(jq -r --arg n "$RELEASE_ASSET" '.assets[]? | select(.name == $n) | .id' <<<"$release_json" | head -n1)"
+          existing_digest="$(jq -r --arg n "$RELEASE_ASSET" '.assets[]? | select(.name == $n) | (.digest // "")' <<<"$release_json" | head -n1)"
+
+          if [[ "$existing_digest" != "sha256:$EXPECTED_SHA256" ]]; then
+            if [[ -n "$existing_id" && "$existing_id" != "null" ]]; then
+              curl --fail --silent --show-error -X DELETE "${auth[@]}" "$api/releases/assets/$existing_id"
+            fi
+
+            upload_json="$(curl --fail --silent --show-error \
+              -X POST "${auth[@]}" \
+              -H 'Content-Type: application/vnd.android.package-archive' \
+              --data-binary @"$RUNNER_TEMP/Alefatemion-15.apk" \
+              "https://uploads.github.com/repos/${GITHUB_REPOSITORY}/releases/${release_id}/assets?name=${RELEASE_ASSET}")"
+
+            test "$(jq -r '.browser_download_url' <<<"$upload_json")" = "$RELEASE_URL"
+          fi
+
+          verify_json="$(curl --fail --silent --show-error "${auth[@]}" "$api/releases/tags/$RELEASE_TAG")"
+          verify_digest="$(jq -r --arg n "$RELEASE_ASSET" '.assets[]? | select(.name == $n) | (.digest // "")' <<<"$verify_json" | head -n1)"
+          verify_size="$(jq -r --arg n "$RELEASE_ASSET" '.assets[]? | select(.name == $n) | .size' <<<"$verify_json" | head -n1)"
+          test "$verify_digest" = "sha256:$EXPECTED_SHA256"
+          test "$verify_size" = "$EXPECTED_SIZE"
+
+      - name: Publish OTA metadata without overwriting newer settings
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import base64, json, os, time, urllib.request, urllib.error
+          from datetime import datetime, timezone
+
+          repo = os.environ['GITHUB_REPOSITORY']
+          token = os.environ['GH_TOKEN']
+          expected_sha = os.environ['EXPECTED_SHA256']
+          release_url = os.environ['RELEASE_URL']
+          api = f'https://api.github.com/repos/{repo}/contents/app-config.json'
+
+          headers = {
+              'Authorization': f'Bearer {token}',
+              'Accept': 'application/vnd.github+json',
+              'X-GitHub-Api-Version': '2022-11-28',
+              'Content-Type': 'application/json',
+          }
+
+          def request(url, method='GET', payload=None):
+              data = None if payload is None else json.dumps(payload).encode()
+              req = urllib.request.Request(url, data=data, method=method, headers=headers)
+              with urllib.request.urlopen(req, timeout=30) as resp:
+                  return resp.status, json.loads(resp.read().decode())
+
+          for attempt in range(5):
+              _, current = request(api + '?ref=main')
+              raw = base64.b64decode(current['content']).decode('utf-8')
+              config = json.loads(raw)
+              ota = dict(config.get('ota') or {})
+              current_code = int(ota.get('version_code') or 0)
+              if current_code > 15:
+                  raise SystemExit(f'Newer OTA code {current_code} already exists; refusing to overwrite it.')
+
+              config['revision'] = int(config.get('revision') or 0) + 1
+              ota.update({
+                  'version_code': 15,
+                  'version_name': '0.5.0',
+                  'apk_url': release_url,
+                  'sha256': expected_sha,
+                  'published_at': datetime.now(timezone.utc).isoformat().replace('+00:00', 'Z'),
+                  'message': 'نسخه جدید ۰.۵.۰ آل فاطمیون منتشر شد. لطفاً برای دریافت اصلاحات و امکانات جدید، برنامه را بروزرسانی کنید.',
+              })
+              ota.setdefault('min_supported_version_code', 0)
+              ota.setdefault('mandatory', False)
+              config['ota'] = ota
+              encoded = base64.b64encode((json.dumps(config, ensure_ascii=False, indent=2) + '\n').encode('utf-8')).decode('ascii')
+              payload = {
+                  'message': 'Publish Production OTA 0.5.0 code 15',
+                  'content': encoded,
+                  'sha': current['sha'],
+                  'branch': 'main',
+              }
+              try:
+                  request(api, 'PUT', payload)
+                  break
+              except urllib.error.HTTPError as exc:
+                  if exc.code not in (409, 422) or attempt == 4:
+                      raise
+                  time.sleep(2)
+          else:
+              raise SystemExit('Could not update app-config.json safely.')
+          PY
+
+      - name: Verify public OTA state
+        shell: bash
+        run: |
+          set -euo pipefail
+          sleep 2
+          curl --fail --location --silent --show-error \
+            "https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/app-config.json" \
+            -o "$RUNNER_TEMP/app-config.json"
+          python3 - <<'PY'
+          import json, os
+          with open(os.path.join(os.environ['RUNNER_TEMP'], 'app-config.json'), encoding='utf-8') as f:
+              c = json.load(f)
+          ota = c['ota']
+          assert ota['version_code'] == 15
+          assert ota['version_name'] == '0.5.0'
+          assert ota['apk_url'] == os.environ['RELEASE_URL']
+          assert ota['sha256'] == os.environ['EXPECTED_SHA256']
+          PY
+
+      - name: Remove this temporary publisher
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          api="https://api.github.com/repos/${GITHUB_REPOSITORY}/contents/.github/workflows/tmp-publish-production-ota-0.5.0.yml"
+          current="$(curl --fail --silent --show-error \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H 'Accept: application/vnd.github+json' \
+            -H 'X-GitHub-Api-Version: 2022-11-28' \
+            "$api?ref=main")"
+          sha="$(jq -r '.sha' <<<"$current")"
+          body="$(jq -nc --arg sha "$sha" '{message:"Remove temporary Production OTA publisher", sha:$sha, branch:"main"}')"
+          curl --fail --silent --show-error -X DELETE \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H 'Accept: application/vnd.github+json' \
+            -H 'X-GitHub-Api-Version: 2022-11-28' \
+            -H 'Content-Type: application/json' \
+            --data "$body" \
+            "$api" >/dev/null
