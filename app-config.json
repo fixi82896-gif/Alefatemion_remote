@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 102,
+  "revision": 103,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -695,7 +695,7 @@
         "destination_type": "external",
         "destination_id": "",
         "destination_parent_id": "",
-        "external_url": "https:\/\/eitaa.com\/alefatemion",
+        "external_url": "https:\/\/t.me\/alefatemion",
         "enabled": true,
         "sponsored": false,
         "display_order": 1,
