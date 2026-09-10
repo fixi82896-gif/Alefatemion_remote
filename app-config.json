@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 104,
+  "revision": 105,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -671,16 +671,16 @@
     "enabled": true,
     "banners": [
       {
-        "id": "home-mti9nnll",
+        "id": "home-mtvgeixe",
         "title": "",
         "description": "",
-        "image_url": "https:\/\/github.com\/fixi82896-gif\/Alefatemion_remote\/releases\/download\/remote-assets-v1\/intro-background-e0daceefe1c2ba6b3f0e.png",
+        "image_url": "https:\/\/github.com\/fixi82896-gif\/Alefatemion_remote\/releases\/download\/remote-assets-v1\/intro-background-63b278b2ca620ff94f7b.jpg",
         "placement": "hero",
-        "destination_type": "album",
-        "destination_id": "hScaqtPDbfEd8vOfNj-oBA",
+        "destination_type": "external",
+        "destination_id": "",
         "destination_parent_id": "",
-        "external_url": "",
-        "enabled": false,
+        "external_url": "https:\/\/navaapp.com\/arizeh",
+        "enabled": true,
         "sponsored": false,
         "display_order": 0,
         "starts_at_millis": 0,
@@ -703,16 +703,16 @@
         "expires_at_millis": 0
       },
       {
-        "id": "home-mtvgeixe",
+        "id": "home-mti9nnll",
         "title": "",
         "description": "",
-        "image_url": "https:\/\/github.com\/fixi82896-gif\/Alefatemion_remote\/releases\/download\/remote-assets-v1\/intro-background-63b278b2ca620ff94f7b.jpg",
+        "image_url": "https:\/\/github.com\/fixi82896-gif\/Alefatemion_remote\/releases\/download\/remote-assets-v1\/intro-background-e0daceefe1c2ba6b3f0e.png",
         "placement": "hero",
-        "destination_type": "external",
-        "destination_id": "",
+        "destination_type": "album",
+        "destination_id": "hScaqtPDbfEd8vOfNj-oBA",
         "destination_parent_id": "",
-        "external_url": "https:\/\/navaapp.com\/arizeh",
-        "enabled": true,
+        "external_url": "",
+        "enabled": false,
         "sponsored": false,
         "display_order": 2,
         "starts_at_millis": 0,
