@@ -1,0 +1,20 @@
+{
+  "name": "آل فاطمیون",
+  "short_name": "آل فاطمیون",
+  "description": "پایگاه رسمی معرفی و اطلاع‌رسانی آل فاطمیون",
+  "lang": "fa",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f3ec",
+  "theme_color": "#143d2b",
+  "icons": [
+    {
+      "src": "./assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
