@@ -1,4 +1,4 @@
-const CACHE='alfatemiun-public-v2';
+const CACHE='alfatemiun-public-v3';
 const CORE=['./','./index.html','./privacy.html','./manifest.webmanifest','./assets/icon.svg','./assets/logo_alfatemiun.webp'];
 
 self.addEventListener('install',event=>{
