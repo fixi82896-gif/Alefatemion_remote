@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 117,
+  "revision": 118,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -640,7 +640,7 @@
         "label": "تلگرام آل فاطمیون",
         "value": "https:\/\/t.me\/alefatemion",
         "enabled": true,
-        "quick_access": true
+        "quick_access": false
       },
       {
         "id": "contact-ed59f1ab1d12",
@@ -655,7 +655,15 @@
         "type": "eitaa",
         "label": "ایتا آل فاطمیون",
         "value": "https:\/\/eitaa.com\/alefatemion",
-        "enabled": false,
+        "enabled": true,
+        "quick_access": true
+      },
+      {
+        "id": "contact-6abd9a5d5c85",
+        "type": "web",
+        "label": "وب سایت رسمی آل فاطمیون",
+        "value": "https:\/\/alefatemion.ir",
+        "enabled": true,
         "quick_access": false
       }
     ]
