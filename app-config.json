@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 118,
+  "revision": 119,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -274,12 +274,12 @@
         "expires_at_millis": 0
       },
       {
-        "id": "home-mu5byeq2",
+        "id": "home-muhg0ot0",
         "title": "",
         "description": "",
         "image_url": "https:\/\/github.com\/fixi82896-gif\/Alefatemion_remote\/releases\/download\/remote-assets-v1\/intro-background-4ab5aadaa955bab9f019.jpg",
         "placement": "hero",
-        "fixed": false,
+        "fixed": true,
         "destination_type": "none",
         "destination_id": "",
         "destination_parent_id": "",
