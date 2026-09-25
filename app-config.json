@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 120,
+  "revision": 121,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -284,9 +284,26 @@
         "destination_id": "",
         "destination_parent_id": "",
         "external_url": "",
-        "enabled": true,
+        "enabled": false,
         "sponsored": false,
         "display_order": 2,
+        "starts_at_millis": 0,
+        "expires_at_millis": 0
+      },
+      {
+        "id": "home-mughpx1r",
+        "title": "",
+        "description": "",
+        "image_url": "https:\/\/github.com\/fixi82896-gif\/Alefatemion_remote\/releases\/download\/remote-assets-v1\/intro-background-4ab5aadaa955bab9f019.jpg",
+        "placement": "hero",
+        "fixed": true,
+        "destination_type": "none",
+        "destination_id": "",
+        "destination_parent_id": "",
+        "external_url": "",
+        "enabled": true,
+        "sponsored": false,
+        "display_order": 3,
         "starts_at_millis": 0,
         "expires_at_millis": 0
       }
