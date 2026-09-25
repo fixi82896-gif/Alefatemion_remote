@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 116,
+  "revision": 117,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -380,13 +380,13 @@
     "watermark_opacity_percent": 14
   },
   "ota": {
-    "version_code": 16,
-    "min_supported_version_code": 16,
-    "version_name": "0.5.0",
-    "apk_url": "https:\/\/github.com\/fixi82896-gif\/Alefatemion_remote\/releases\/download\/android-v16\/Alefatemion-16.apk",
-    "sha256": "c90863702c957468a3331d9348caf57c5192c710c9d35090309c468af18c37cb",
-    "mandatory": false,
-    "published_at": "2026-09-09T12:40:34.490375Z",
-    "message": "نسخه جدید ۰.۵.۰ آل فاطمیون منتشر شد. لطفاً برای دریافت اصلاحات و امکانات جدید، برنامه را بروزرسانی کنید."
+    "version_code": 2100,
+    "min_supported_version_code": 2100,
+    "version_name": "21",
+    "apk_url": "https:\/\/github.com\/fixi82896-gif\/Alefatemion_remote\/releases\/download\/android-v2100\/Alefatemion-2100.apk",
+    "sha256": "1775bfb0d26bf5828b2741f6e84efe035ee7f432ddb545a9c75a869c0ca4828a",
+    "mandatory": true,
+    "published_at": "2026-09-25T19:59:01.913983Z",
+    "message": "نسخه ۲۱ آل فاطمیون منتشر شد\nاین نسخه شامل تغییرات و بهبودهای گسترده در بخش‌های مختلف برنامه است؛ از جمله بهبود صفحه اصلی و رابط کاربری، رادیو آل فاطمیون، گالری و رسانه‌ها، ورود و مدیریت حساب کاربری، مدیریت دستگاه‌ها، پنل مدیریت، امنیت و پایداری برنامه.\nهمچنین زیرساخت حساب کاربری و ارتباط برنامه با سامانه مرکزی به‌روزرسانی شده و تعدادی از مشکلات نسخه‌های قبلی برطرف شده است.\nبه‌دلیل تغییرات مهم زیرساختی و امنیتی، نصب نسخه ۲۱ برای ادامه استفاده از برنامه ضروری است.\nلطفاً به‌روزرسانی را دریافت و نصب کنید. اطلاعات حساب و داده‌های برنامه در هنگام بروزرسانی حفظ می‌شود. در برخی دستگاه‌ها ممکن است برای حفظ امنیت، تأیید شماره همراه دوباره درخواست شود."
   }
 }
