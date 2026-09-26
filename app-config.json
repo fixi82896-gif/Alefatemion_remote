@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 125,
+  "revision": 126,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -257,16 +257,16 @@
         "expires_at_millis": 0
       },
       {
-        "id": "home-mtu1o2jb",
+        "id": "home-muiw3du2",
         "title": "",
         "description": "",
-        "image_url": "https:\/\/github.com\/fixi82896-gif\/Alefatemion_remote\/releases\/download\/remote-assets-v1\/intro-background-cdda363175c618f1bd21.jpg",
+        "image_url": "https:\/\/github.com\/fixi82896-gif\/Alefatemion_remote\/releases\/download\/remote-assets-v1\/intro-background-f37f98c8efd4eef11c9f.jpg",
         "placement": "hero",
         "fixed": false,
-        "destination_type": "external",
+        "destination_type": "none",
         "destination_id": "",
         "destination_parent_id": "",
-        "external_url": "https:\/\/t.me\/alefatemion",
+        "external_url": "",
         "enabled": true,
         "sponsored": false,
         "display_order": 1,
@@ -291,6 +291,23 @@
         "expires_at_millis": 0
       },
       {
+        "id": "home-mtu1o2jb",
+        "title": "",
+        "description": "",
+        "image_url": "https:\/\/github.com\/fixi82896-gif\/Alefatemion_remote\/releases\/download\/remote-assets-v1\/intro-background-cdda363175c618f1bd21.jpg",
+        "placement": "hero",
+        "fixed": false,
+        "destination_type": "external",
+        "destination_id": "",
+        "destination_parent_id": "",
+        "external_url": "https:\/\/t.me\/alefatemion",
+        "enabled": true,
+        "sponsored": false,
+        "display_order": 3,
+        "starts_at_millis": 0,
+        "expires_at_millis": 0
+      },
+      {
         "id": "home-mti9nnll",
         "title": "",
         "description": "",
@@ -302,23 +319,6 @@
         "destination_parent_id": "",
         "external_url": "",
         "enabled": false,
-        "sponsored": false,
-        "display_order": 3,
-        "starts_at_millis": 0,
-        "expires_at_millis": 0
-      },
-      {
-        "id": "home-muiw3du2",
-        "title": "",
-        "description": "",
-        "image_url": "https:\/\/github.com\/fixi82896-gif\/Alefatemion_remote\/releases\/download\/remote-assets-v1\/intro-background-f37f98c8efd4eef11c9f.jpg",
-        "placement": "hero",
-        "fixed": false,
-        "destination_type": "none",
-        "destination_id": "",
-        "destination_parent_id": "",
-        "external_url": "",
-        "enabled": true,
         "sponsored": false,
         "display_order": 4,
         "starts_at_millis": 0,
