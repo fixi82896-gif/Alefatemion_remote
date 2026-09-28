@@ -1,0 +1,130 @@
+name: System Health Monitor
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - ".github/workflows/system-health-monitor.yml"
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: system-health-monitor
+  cancel-in-progress: true
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Check identity endpoints
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          import subprocess
+          import sys
+
+          endpoints = [
+              ("Production health", "https://identity.alefatemion.ir/healthz", {"ok"}),
+              ("Production readiness", "https://identity.alefatemion.ir/readyz", {"ready", "ok"}),
+              ("Test health", "https://identity-test.alefatemion.ir/healthz", {"ok"}),
+              ("Test readiness", "https://identity-test.alefatemion.ir/readyz", {"ready", "ok"}),
+          ]
+
+          for label, url, accepted in endpoints:
+              result = subprocess.run(
+                  [
+                      "curl", "--fail", "--silent", "--show-error",
+                      "--location", "--retry", "2", "--retry-delay", "2",
+                      "--connect-timeout", "10", "--max-time", "25", url,
+                  ],
+                  text=True,
+                  capture_output=True,
+              )
+              if result.returncode != 0:
+                  print(f"{label}: request failed: {result.stderr.strip()}", file=sys.stderr)
+                  raise SystemExit(1)
+              try:
+                  payload = json.loads(result.stdout)
+              except Exception as exc:
+                  print(f"{label}: invalid JSON: {exc}", file=sys.stderr)
+                  raise SystemExit(1)
+              status = str(payload.get("status", "")).lower()
+              if status not in accepted:
+                  print(f"{label}: unexpected status={status!r}", file=sys.stderr)
+                  raise SystemExit(1)
+              print(f"{label}: OK ({status})")
+          PY
+
+      - name: Check Production and Test remote JSON
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          import subprocess
+          import sys
+
+          files = [
+              ("Production config", "https://raw.githubusercontent.com/fixi82896-gif/Alefatemion_remote/main/app-config.json"),
+              ("Production catalog", "https://raw.githubusercontent.com/fixi82896-gif/Alefatemion_remote/main/media-catalog.json"),
+              ("Test config", "https://raw.githubusercontent.com/fixi82896-gif/Alefatemion_remote_test/main/app-config.json"),
+              ("Test catalog", "https://raw.githubusercontent.com/fixi82896-gif/Alefatemion_remote_test/main/media-catalog.json"),
+          ]
+
+          payloads = {}
+          for label, url in files:
+              result = subprocess.run(
+                  [
+                      "curl", "--fail", "--silent", "--show-error",
+                      "--location", "--retry", "2", "--retry-delay", "2",
+                      "--connect-timeout", "10", "--max-time", "30", url,
+                  ],
+                  text=True,
+                  capture_output=True,
+              )
+              if result.returncode != 0:
+                  print(f"{label}: request failed: {result.stderr.strip()}", file=sys.stderr)
+                  raise SystemExit(1)
+              try:
+                  data = json.loads(result.stdout)
+              except Exception as exc:
+                  print(f"{label}: invalid JSON: {exc}", file=sys.stderr)
+                  raise SystemExit(1)
+              revision = int(data.get("revision", -1))
+              schema = int(data.get("schema_version", -1))
+              if schema != 1 or revision < 0:
+                  print(f"{label}: invalid schema/revision", file=sys.stderr)
+                  raise SystemExit(1)
+              payloads[label] = data
+              print(f"{label}: OK (revision {revision})")
+
+          prod = payloads["Production config"]
+          ota = prod.get("ota") or {}
+          version_code = int(ota.get("version_code", 0))
+          apk_url = str(ota.get("apk_url", "")).strip()
+          sha256 = str(ota.get("sha256", "")).strip().lower()
+          if version_code <= 0 or not apk_url.startswith("https://") or len(sha256) != 64:
+              print("Production OTA descriptor is invalid", file=sys.stderr)
+              raise SystemExit(1)
+
+          result = subprocess.run(
+              [
+                  "curl", "--fail", "--silent", "--show-error",
+                  "--location", "--head", "--retry", "2",
+                  "--connect-timeout", "10", "--max-time", "45", apk_url,
+              ],
+              text=True,
+              capture_output=True,
+          )
+          if result.returncode != 0:
+              print(f"Production OTA APK is not reachable: {result.stderr.strip()}", file=sys.stderr)
+              raise SystemExit(1)
+          print(f"Production OTA APK: reachable (version_code {version_code})")
+          PY
