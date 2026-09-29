@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 133,
+  "revision": 134,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -318,7 +318,7 @@
         "destination_id": "hScaqtPDbfEd8vOfNj-oBA",
         "destination_parent_id": "",
         "external_url": "",
-        "enabled": false,
+        "enabled": true,
         "sponsored": false,
         "display_order": 4,
         "starts_at_millis": 0,
