@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 144,
+  "revision": 145,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -257,6 +257,23 @@
         "expires_at_millis": 0
       },
       {
+        "id": "home-muq15si7",
+        "title": "",
+        "description": "",
+        "image_url": "https:\/\/github.com\/fixi82896-gif\/Alefatemion_remote\/releases\/download\/remote-assets-v1\/intro-background-cb429db3cefbefb0ad28.jpg",
+        "placement": "hero",
+        "fixed": false,
+        "destination_type": "none",
+        "destination_id": "",
+        "destination_parent_id": "",
+        "external_url": "",
+        "enabled": true,
+        "sponsored": false,
+        "display_order": 1,
+        "starts_at_millis": 0,
+        "expires_at_millis": 0
+      },
+      {
         "id": "home-muhg8r1c",
         "title": "",
         "description": "",
@@ -269,7 +286,7 @@
         "external_url": "",
         "enabled": true,
         "sponsored": false,
-        "display_order": 1,
+        "display_order": 2,
         "starts_at_millis": 0,
         "expires_at_millis": 0
       },
@@ -286,7 +303,7 @@
         "external_url": "https:\/\/t.me\/alefatemion",
         "enabled": true,
         "sponsored": false,
-        "display_order": 2,
+        "display_order": 3,
         "starts_at_millis": 0,
         "expires_at_millis": 0
       },
@@ -303,26 +320,9 @@
         "external_url": "",
         "enabled": false,
         "sponsored": false,
-        "display_order": 3,
+        "display_order": 4,
         "starts_at_millis": 1790640000000,
         "expires_at_millis": 1790726400000
-      },
-      {
-        "id": "home-muq15si7",
-        "title": "",
-        "description": "",
-        "image_url": "https:\/\/github.com\/fixi82896-gif\/Alefatemion_remote\/releases\/download\/remote-assets-v1\/intro-background-cb429db3cefbefb0ad28.jpg",
-        "placement": "hero",
-        "fixed": false,
-        "destination_type": "none",
-        "destination_id": "",
-        "destination_parent_id": "",
-        "external_url": "",
-        "enabled": true,
-        "sponsored": false,
-        "display_order": 4,
-        "starts_at_millis": 0,
-        "expires_at_millis": 0
       }
     ],
     "radio_banner_image_url": "",
