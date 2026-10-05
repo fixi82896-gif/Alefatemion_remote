@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 154,
+  "revision": 155,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -13,7 +13,7 @@
     "enabled": true,
     "mourning_enabled": true,
     "celebration_enabled": true,
-    "stop_in_background": true,
+    "stop_in_background": false,
     "repeat_last_track": true,
     "tracks": [
       {
