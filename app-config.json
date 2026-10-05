@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 152,
+  "revision": 153,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -333,7 +333,7 @@
     "radio_banner_image_url": "",
     "hosseiniyeh": {
       "enabled": true,
-      "banner_image_url": "https:\/\/github.com\/fixi82896-gif\/Alefatemion_remote_test\/releases\/download\/remote-assets-v1\/intro-background-a9127c480b4d0ad548b5.jpg",
+      "banner_image_url": "https:\/\/github.com\/fixi82896-gif\/Alefatemion_remote\/releases\/download\/remote-assets-v1\/intro-background-71cfd416f9ba51400dca.jpg",
       "banner_title": "",
       "banner_subtitle": "",
       "banner_show_logo": false,
