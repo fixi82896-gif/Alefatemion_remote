@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 151,
+  "revision": 152,
   "source": {
     "root_hash": "BJPV-mKSsDD-nMfmncHIcw"
   },
@@ -12280,32 +12280,32 @@
       {
         "id": "radio",
         "enabled": true,
-        "display_order": 0
-      },
-      {
-        "id": "albums",
-        "enabled": true,
-        "display_order": 1
-      },
-      {
-        "id": "media",
-        "enabled": true,
         "display_order": 2
-      },
-      {
-        "id": "announcements",
-        "enabled": true,
-        "display_order": 3
-      },
-      {
-        "id": "favorites",
-        "enabled": true,
-        "display_order": 4
       },
       {
         "id": "hosseiniyeh",
         "enabled": true,
+        "display_order": 1
+      },
+      {
+        "id": "albums",
+        "enabled": true,
+        "display_order": 3
+      },
+      {
+        "id": "media",
+        "enabled": true,
+        "display_order": 4
+      },
+      {
+        "id": "announcements",
+        "enabled": true,
         "display_order": 5
+      },
+      {
+        "id": "favorites",
+        "enabled": true,
+        "display_order": 6
       }
     ]
   },
