@@ -49,11 +49,13 @@ def load_json(path: Path, default: Any) -> Any:
         return json.load(handle)
 
 
-def write_json(path: Path, value: Any) -> None:
+def write_json(path: Path, value: Any, *, compact: bool = False) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_suffix(path.suffix + ".tmp")
     with temporary.open("w", encoding="utf-8") as handle:
-        json.dump(value, handle, ensure_ascii=False, indent=2)
+        json.dump(value, handle, ensure_ascii=False,
+                  indent=None if compact else 2,
+                  separators=(",", ":") if compact else None)
         handle.write("\n")
     temporary.replace(path)
 
@@ -551,7 +553,8 @@ def main() -> None:
         current_media,
         current_folders,
     )
-    write_json(CONFIG_PATH, config)
+    # Older Production clients must still read the OTA manifest inside this config.
+    write_json(CONFIG_PATH, config, compact=True)
     write_json(STATE_PATH, next_state)
     if deferred_reason:
         print(
